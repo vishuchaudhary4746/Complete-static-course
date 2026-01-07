@@ -15,9 +15,9 @@ app.get("/api/jokes", (req, res) => {
   const jokes = [
     { id: 1, title: "A joke", content: "This is a joke" },
     { id: 2, title: "Another joke", content: "This is another joke" },
-    { id: 3, title: "A joke", content: "This is 3 a joke" },
-    { id: 4, title: "A joke", content: "This is 4 a joke" },
-    { id: 5, title: "A joke", content: "This is 5 a joke" },
+    { id: 3, title: "A 3rd joke", content: "This is 3 a joke" },
+    { id: 4, title: "A 4th joke", content: "This is 4 a joke" },
+    { id: 5, title: "A 5th joke", content: "This is 5 a joke" },
   ];
 
   res.json(jokes);
